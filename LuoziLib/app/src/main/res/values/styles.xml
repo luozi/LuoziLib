@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="SpotsDialogDefault" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Loading…</item>
+        <item name="DialogSpotColor">@color/holo_blue_dark</item>
+        <item name="DialogSpotCount">5</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">#ad1457</item>
+        <item name="android:windowBackground">@color/bright_foreground_inverse_material_light</item>
+    </style>
+
+    <style name="NoTitleAppTheme" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryDark">#ad1457</item>
+        <item name="android:windowBackground">@color/bright_foreground_inverse_material_light</item>
+    </style>
+</resources>

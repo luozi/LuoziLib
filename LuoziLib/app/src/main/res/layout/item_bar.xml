@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/action_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/bar_min_width"
+        android:background="@color/Pink_700">
+
+        <TextView
+            android:id="@+id/action_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/bar_min_width"
+            android:minHeight="@dimen/bar_min_width"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:visibility="visible"
+            android:drawableLeft="@drawable/abc_ic_ab_back_mtrl_am_alpha"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/action_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/bar_min_width"
+            android:minHeight="@dimen/bar_min_width"
+            android:layout_gravity="end"
+            android:gravity="center|bottom"
+            android:text=""
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:textColor="@color/white"/>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/solid_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:visibility="visible"
+        android:background="@drawable/ab_solid_shadow_holo"/>
+
+</LinearLayout>
