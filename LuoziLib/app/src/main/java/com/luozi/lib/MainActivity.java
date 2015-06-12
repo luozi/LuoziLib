@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
     private Activity mActivity;
 
-//    @InjectView(R.id.tool_bar)
+    @InjectView(R.id.tool_bar)
     Toolbar mToolbar;
 
-//    @InjectView(R.id.toolbar_title)
+    @InjectView(R.id.toolbar_title)
     TextView mToolbarTitle;
 
     @Override
